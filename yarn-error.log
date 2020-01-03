@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-elements@1.2.0
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation@2.0.1
 
 PATH: 
   C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Eric Luchman\bin;C:\Python27;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\Users\Eric Luchman\AppData\Local\Android\Sdk\platform-tools;C:\Users\Eric Luchman\AppData\Local\Microsoft\WindowsApps;C:\Users\Eric Luchman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Eric Luchman\AppData\Local\Yarn\bin;C:\Users\Eric Luchman\AppData\Roaming\npm
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\Eric Luchman\Desktop\NucampFolder\4-React-Native\nucampsite\node_modules\@babel\generator\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Eric Luchman\Desktop\NucampFolder\4-React-Native\nucampsite\node_modules\color-string\node_modules\color-name'
 
 npm manifest: 
   {
