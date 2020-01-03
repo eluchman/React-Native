@@ -19,24 +19,24 @@ class Directory extends Component {
     render() {
         const { navigate } = this.props.navigation;
         const renderDirectoryItem = ({item}) => {
+            return (
+                <ListItem
+                    title={item.name}
+                    subtitle={item.description}
+                    onPress={() => navigate('CampsiteInfo', { campsiteId: item.id })}
+                    leftAvatar={{ source: require('./images/react-lake.jpg')}}
+                />
+            );
+        };
+
         return (
-            <ListItem
-                title={item.name}
-                subtitle={item.description}
-                onPress={() => navigate('CampsiteInfo', { campsiteId: item.id })}
-                leftAvatar={{ source: require('./images/react-lake.jpg')}}
+            <FlatList
+                data={this.state.campsites}
+                renderItem={renderDirectoryItem}
+                keyExtractor={item => item.id.toString()}
             />
         );
-    };
-
-    return (
-        <FlatList 
-            data={this.state.campsites}
-            renderItem={renderDirectoryItem}
-            keyExtractor={item => item.id.toString()}
-        />
-    );
-    } 
+    }
 }
 
 export default Directory;
