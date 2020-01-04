@@ -36,6 +36,7 @@ class Directory extends Component {
                 keyExtractor={item => item.id.toString()}
             />
         );
+    
     }
 }
 

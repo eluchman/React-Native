@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
 import Directory from './DirectoryComponent';
+import About from './AboutComponent';
+import Contact from './ContactComponent';
 import CampsiteInfo from './CampsiteInfoComponent';
 import { View, Platform } from 'react-native';
 import { createStackNavigator, createDrawerNavigator } from 'react-navigation';
